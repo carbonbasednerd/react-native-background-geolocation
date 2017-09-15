@@ -13,7 +13,7 @@
 #import <React/RCTLog.h>
 #endif
 #if __has_include("RCTEventDispatcher.h")
-#import "RCTEventDispatcher.h"
+#import <React/RCTEventDispatcher.h>
 #else
 #import <React/RCTEventDispatcher.h>
 #endif
