@@ -12,6 +12,11 @@
 #else
 #import <React/RCTLog.h>
 #endif
+#if __has_include("RCTEventDispatcher.h")
+#import <React/RCTEventDispatcher.h>
+#else
+#import "RCTEventDispatcher.h"
+#endif
 #import "Logging.h"
 
 @implementation RCTBackgroundGeolocation
